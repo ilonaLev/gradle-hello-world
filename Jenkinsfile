@@ -1,4 +1,4 @@
-node('slave1'){
+node('slave'){
   gradle4 = tool 'gradle4'
   stage('Checkout') {
     checkout SCM
